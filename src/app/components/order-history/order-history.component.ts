@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
-
+import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 @Component({
   selector: 'app-order-history',
   standalone: true,
@@ -7,6 +7,15 @@ import { Component } from '@angular/core';
   templateUrl: './order-history.component.html',
   styleUrl: './order-history.component.css'
 })
-export class OrderHistoryComponent {
+export class OrderHistoryComponent implements OnInit {
+  constructor(private router: Router){
+
+  }
+  ngOnInit(): void {
+    if(!localStorage.getItem('localkey')){
+      this.router.navigate(['/login']);
+    }
+  }
+ 
 
 }
