@@ -1,0 +1,388 @@
+{
+    "userData": [
+        {
+          "username": "jdoe",
+          "id": "U1001",
+          "password": "password123",
+          "fullName": "John Doe",
+          "address": "123 Main St, Springfield, IL",
+          "email": "jdoe@example.com"
+        },
+        {
+          "username": "asmith",
+          "id": "U1002",
+          "password": "password456",
+          "fullName": "Alice Smith",
+          "address": "456 Elm St, Metropolis, NY",
+          "email": "asmith@example.com"
+        },
+        {
+          "username": "rbrown",
+          "id": "U1003",
+          "password": "password789",
+          "fullName": "Robert Brown",
+          "address": "789 Oak St, Gotham, NJ",
+          "email": "rbrown@example.com"
+        },
+        {
+          "username": "ljohnson",
+          "id": "U1004",
+          "password": "password321",
+          "fullName": "Laura Johnson",
+          "address": "101 Pine St, Star City, WA",
+          "email": "ljohnson@example.com"
+        },
+        {
+          "username": "pkumar",
+          "id": "U1005",
+          "password": "password654",
+          "fullName": "Priya Kumar",
+          "address": "202 Maple St, Central City, TX",
+          "email": "pkumar@example.com"
+        },
+        {
+          "username": "cmartinez",
+          "id": "U1006",
+          "password": "password987",
+          "fullName": "Carlos Martinez",
+          "address": "303 Cedar St, Coast City, CA",
+          "email": "cmartinez@example.com"
+        },
+        {
+          "username": "mmiller",
+          "id": "U1007",
+          "password": "password654",
+          "fullName": "Michael Miller",
+          "address": "404 Birch St, Keystone City, FL",
+          "email": "mmiller@example.com"
+        },
+        {
+          "username": "gwhite",
+          "id": "U1008",
+          "password": "password321",
+          "fullName": "Grace White",
+          "address": "505 Willow St, Hill Valley, CO",
+          "email": "gwhite@example.com"
+        },
+        {
+          "username": "dking",
+          "id": "U1009",
+          "password": "password123",
+          "fullName": "Daniel King",
+          "address": "606 Ash St, Riverdale, OH",
+          "email": "dking@example.com"
+        },
+        {
+          "username": "slee",
+          "id": "U1010",
+          "password": "password456",
+          "fullName": "Sarah Lee",
+          "address": "707 Poplar St, Smallville, KS",
+          "email": "slee@example.com"
+        },
+        {
+          "username": "wharris",
+          "id": "U1011",
+          "password": "password789",
+          "fullName": "William Harris",
+          "address": "808 Chestnut St, Twin Peaks, OR",
+          "email": "wharris@example.com"
+        },
+        {
+          "username": "cjones",
+          "id": "U1012",
+          "password": "password987",
+          "fullName": "Christine Jones",
+          "address": "909 Spruce St, Storybrooke, ME",
+          "email": "cjones@example.com"
+        },
+        {
+          "username": "phernandez",
+          "id": "U1013",
+          "password": "password321",
+          "fullName": "Paul Hernandez",
+          "address": "1001 Fir St, Amityville, NY",
+          "email": "phernandez@example.com"
+        },
+        {
+          "username": "rwalker",
+          "id": "U1014",
+          "password": "password654",
+          "fullName": "Rebecca Walker",
+          "address": "1112 Redwood St, Mayberry, NC",
+          "email": "rwalker@example.com"
+        },
+        {
+          "username": "tbaker",
+          "id": "U1015",
+          "password": "password123",
+          "fullName": "Thomas Baker",
+          "address": "1213 Sycamore St, Sunnydale, CA",
+          "email": "tbaker@example.com"
+        },
+        {
+          "username": "jyoung",
+          "id": "U1016",
+          "password": "password456",
+          "fullName": "Jessica Young",
+          "address": "1314 Dogwood St, Stars Hollow, CT",
+          "email": "jyoung@example.com"
+        },
+        {
+          "username": "kmorris",
+          "id": "U1017",
+          "password": "password789",
+          "fullName": "Karen Morris",
+          "address": "1415 Magnolia St, Charming, FL",
+          "email": "kmorris@example.com"
+        },
+        {
+          "username": "mwilson",
+          "id": "U1018",
+          "password": "password321",
+          "fullName": "Matthew Wilson",
+          "address": "1516 Hickory St, Capeside, MA",
+          "email": "mwilson@example.com"
+        },
+        {
+          "username": "lscott",
+          "id": "U1019",
+          "password": "password654",
+          "fullName": "Linda Scott",
+          "address": "1617 Elmwood St, Mystic Falls, VA",
+          "email": "lscott@example.com"
+        },
+        {
+          "username": "tmartin",
+          "id": "U1020",
+          "password": "password987",
+          "fullName": "Timothy Martin",
+          "address": "1718 Cottonwood St, Rosewood, PA",
+          "email": "tmartin@example.com"
+        }
+      ]
+    ,
+    "productData": [
+        {
+          "id": "P1001",
+          "productName": "Wireless Earbuds",
+          "productDescription": "High-quality wireless earbuds with noise cancellation.",
+          "productCategory": "Electronics",
+          "productImagePath": "/images/products/earbuds.jpg",
+          "discount": 15,
+          "price": 59.99,
+          "soldFlag": false,
+          "sellerId": "S2001"
+        },
+        {
+          "id": "P1002",
+          "productName": "Running Shoes",
+          "productDescription": "Comfortable running shoes for daily exercise.",
+          "productCategory": "Footwear",
+          "productImagePath": "/images/products/running_shoes.jpg",
+          "discount": 10,
+          "price": 89.99,
+          "soldFlag": true,
+          "sellerId": "S2002"
+        },
+        {
+          "id": "P1003",
+          "productName": "Smartphone",
+          "productDescription": "Latest model smartphone with high-speed processor.",
+          "productCategory": "Electronics",
+          "productImagePath": "/images/products/smartphone.jpg",
+          "discount": 5,
+          "price": 699.99,
+          "soldFlag": false,
+          "sellerId": "S2003"
+        },
+        {
+          "id": "P1004",
+          "productName": "Yoga Mat",
+          "productDescription": "Non-slip yoga mat with comfortable cushioning.",
+          "productCategory": "Sports",
+          "productImagePath": "/images/products/yoga_mat.jpg",
+          "discount": 20,
+          "price": 29.99,
+          "soldFlag": true,
+          "sellerId": "S2004"
+        },
+        {
+          "id": "P1005",
+          "productName": "Gaming Mouse",
+          "productDescription": "Precision gaming mouse with customizable RGB lighting.",
+          "productCategory": "Accessories",
+          "productImagePath": "/images/products/gaming_mouse.jpg",
+          "discount": 12,
+          "price": 49.99,
+          "soldFlag": false,
+          "sellerId": "S2005"
+        },
+        {
+          "id": "P1006",
+          "productName": "Electric Kettle",
+          "productDescription": "Stainless steel electric kettle with quick boiling feature.",
+          "productCategory": "Kitchen",
+          "productImagePath": "/images/products/kettle.jpg",
+          "discount": 18,
+          "price": 24.99,
+          "soldFlag": true,
+          "sellerId": "S2006"
+        },
+        {
+          "id": "P1007",
+          "productName": "Bluetooth Speaker",
+          "productDescription": "Portable Bluetooth speaker with powerful sound.",
+          "productCategory": "Electronics",
+          "productImagePath": "/images/products/speaker.jpg",
+          "discount": 8,
+          "price": 39.99,
+          "soldFlag": false,
+          "sellerId": "S2007"
+        },
+        {
+          "id": "P1008",
+          "productName": "Water Bottle",
+          "productDescription": "Insulated water bottle to keep drinks cold or hot.",
+          "productCategory": "Accessories",
+          "productImagePath": "/images/products/water_bottle.jpg",
+          "discount": 10,
+          "price": 19.99,
+          "soldFlag": false,
+          "sellerId": "S2008"
+        },
+        {
+          "id": "P1009",
+          "productName": "Backpack",
+          "productDescription": "Durable backpack with multiple compartments.",
+          "productCategory": "Bags",
+          "productImagePath": "/images/products/backpack.jpg",
+          "discount": 15,
+          "price": 34.99,
+          "soldFlag": true,
+          "sellerId": "S2009"
+        },
+        {
+          "id": "P1010",
+          "productName": "Smart Watch",
+          "productDescription": "Smart watch with fitness tracking and notifications.",
+          "productCategory": "Electronics",
+          "productImagePath": "/images/products/smart_watch.jpg",
+          "discount": 7,
+          "price": 199.99,
+          "soldFlag": false,
+          "sellerId": "S2010"
+        },
+        {
+          "id": "P1011",
+          "productName": "Desk Lamp",
+          "productDescription": "LED desk lamp with adjustable brightness.",
+          "productCategory": "Home Decor",
+          "productImagePath": "/images/products/desk_lamp.jpg",
+          "discount": 12,
+          "price": 14.99,
+          "soldFlag": true,
+          "sellerId": "S2011"
+        },
+        {
+          "id": "P1012",
+          "productName": "Wireless Keyboard",
+          "productDescription": "Compact wireless keyboard with long battery life.",
+          "productCategory": "Accessories",
+          "productImagePath": "/images/products/keyboard.jpg",
+          "discount": 10,
+          "price": 29.99,
+          "soldFlag": false,
+          "sellerId": "S2012"
+        },
+        {
+          "id": "P1013",
+          "productName": "Electric Drill",
+          "productDescription": "Powerful electric drill for home improvement projects.",
+          "productCategory": "Tools",
+          "productImagePath": "/images/products/drill.jpg",
+          "discount": 20,
+          "price": 49.99,
+          "soldFlag": true,
+          "sellerId": "S2013"
+        },
+        {
+          "id": "P1014",
+          "productName": "Camping Tent",
+          "productDescription": "Waterproof camping tent for outdoor adventures.",
+          "productCategory": "Outdoor",
+          "productImagePath": "/images/products/tent.jpg",
+          "discount": 18,
+          "price": 79.99,
+          "soldFlag": false,
+          "sellerId": "S2014"
+        },
+        {
+          "id": "P1015",
+          "productName": "Ceramic Mug",
+          "productDescription": "Handcrafted ceramic mug, perfect for coffee or tea.",
+          "productCategory": "Kitchen",
+          "productImagePath": "/images/products/mug.jpg",
+          "discount": 5,
+          "price": 9.99,
+          "soldFlag": true,
+          "sellerId": "S2015"
+        },
+        {
+          "id": "P1016",
+          "productName": "Electric Toothbrush",
+          "productDescription": "Rechargeable electric toothbrush with soft bristles.",
+          "productCategory": "Personal Care",
+          "productImagePath": "/images/products/toothbrush.jpg",
+          "discount": 12,
+          "price": 29.99,
+          "soldFlag": false,
+          "sellerId": "S2016"
+        },
+        {
+          "id": "P1017",
+          "productName": "LED Flashlight",
+          "productDescription": "Bright LED flashlight with adjustable focus.",
+          "productCategory": "Tools",
+          "productImagePath": "/images/products/flashlight.jpg",
+          "discount": 20,
+          "price": 19.99,
+          "soldFlag": true,
+          "sellerId": "S2017"
+        },
+        {
+          "id": "P1018",
+          "productName": "Laptop Stand",
+          "productDescription": "Adjustable laptop stand for ergonomic comfort.",
+          "productCategory": "Office Supplies",
+          "productImagePath": "/images/products/laptop_stand.jpg",
+          "discount": 15,
+          "price": 24.99,
+          "soldFlag": false,
+          "sellerId": "S2018"
+        },
+        {
+          "id": "P1019",
+          "productName": "Sunglasses",
+          "productDescription": "Stylish polarized sunglasses with UV protection.",
+          "productCategory": "Fashion",
+          "productImagePath": "/images/products/sunglasses.jpg",
+          "discount": 10,
+          "price": 14.99,
+          "soldFlag": false,
+          "sellerId": "S2019"
+        },
+        {
+          "id": "P1020",
+          "productName": "Bluetooth Headphones",
+          "productDescription": "Over-ear Bluetooth headphones with high-quality sound.",
+          "productCategory": "Electronics",
+          "productImagePath": "/images/products/headphones.jpg",
+          "discount": 25,
+          "price": 59.99,
+          "soldFlag": true,
+          "sellerId": "S2020"
+        }
+      ]
+      
+}

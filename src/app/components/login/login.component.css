@@ -1,0 +1,53 @@
+
+.login-card{
+    background-color: white;
+    color: black;
+    height: 15rem;
+    width: 14rem;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 20px;
+    /* border: 2px solid blue; */
+    text-align: left !important;
+}
+label{
+    color: black;
+}
+.input-container{
+    /* border: 1px solid red; */
+    /* padding: 10px; */
+}
+.input-container input{
+    border-radius: 10px;
+    padding: 7px 20px;
+    border: 1px solid grey;
+    width: 11rem;
+}
+.button-container{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.button-container button{
+    padding: 7px 15px;
+    border-radius: 40px;
+    background-color: black;
+    color: white;
+    width: 50%;
+}
+.signup-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.signup-container button{
+    padding: 7px 15px;
+    border-radius: 40px;
+    background-color: rgb(119, 119, 119);
+    color: rgb(0, 0, 0);
+    width: 50%;
+
+}
