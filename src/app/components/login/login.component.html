@@ -1,4 +1,4 @@
-<div class="login-card">
+<!-- <div class="login-card">
     <label for="username">Username</label>
     <div class="input-container">
         
@@ -18,4 +18,29 @@
         <button>Sign Up</button>
     </div>
     
+</div> -->
+
+
+<div class="container">
+    <div class="card-container">
+        <div class="img-container">
+            <img src="/assets/images/login-bg.jpg" alt="">
+            <!-- <div class="random"></div> -->
+        </div>
+        
+        <div class="LOGIN-heading">
+            <h1>Login</h1>
+        </div>
+        <div class="input-container">
+            <input type="text" placeholder="Enter Username" (input)="onInputChange($event, 'username')">
+            <input type="password" id="" placeholder="Enter Password" (input)="onInputChange($event, 'password')">
+        </div>
+        <div class="btn-container">
+            <button (click)="onLogin()">LOGIN</button>
+        </div>
+        <div class="btn-container">
+            <p>Don't have an account?</p>
+            <button class="sign-up-btn">SIGN UP</button>
+        </div>
+    </div>
 </div>
