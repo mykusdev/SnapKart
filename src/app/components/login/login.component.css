@@ -26,7 +26,10 @@
     overflow: hidden;
     /* background: linear-gradient(to bottom, rgba(255, 0, 0, 0), green); */
     /* z-index: 9; */
-    background-color: black;
+    /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #73ab84), url("/assets/images/login-bg.jpg"); */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #73ab84), url("/assets/images/shopping-bags.jpg");
+    background-size: cover;
+    background-position: center, center -100px;
 
 }
 /* .random{
@@ -38,6 +41,16 @@
     bottom: 0;
     background-color: black;
 } */
+
+.error-container{
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid red;
+    border-radius: 10px;
+    background-color: rgba(255, 0, 0, 0.3);
+    width: 70%;
+    text-align: center;
+}
 
 .img-container img{
     width: 100%;
@@ -85,6 +98,7 @@
 .btn-container .sign-up-btn{
     /* border: 1px solid red; */
     background-color: #1E441E;
+    width:60%;
 }
 @media (max-width: 800px){
     .container{
