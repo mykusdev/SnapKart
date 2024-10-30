@@ -77,9 +77,10 @@ export class LoginComponent {
     }
     console.log(this.userdata);
 
-    
-    
   }
+
+  
+
   async onApiCall(){
     
     const path = `http://localhost:4500/userData?username=${this.userdata.username}`;
@@ -99,5 +100,9 @@ export class LoginComponent {
     }catch(err){
       console.log(err);
     }
+  }
+
+  redirectToSignup(){
+    this.router.navigate(['/signup']);
   }
 }

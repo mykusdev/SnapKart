@@ -1,29 +1,10 @@
-<!-- <div class="login-card">
-    <label for="username">Username</label>
-    <div class="input-container">
-        
-        <input type="text" id="username">
-    </div>
-    <label for="password">Password</label>
-    <div class="input-container">
-       
-        <input type="password" id="password">
-    </div>
-    <div class="button-container">
-        <button>Login</button>
-    </div>
-    
-    <div class="signup-container">
-        <p>Don't have any account?</p>
-        <button>Sign Up</button>
-    </div>
-    
-</div> -->
-
-
 <div class="container">
+    <!-- <div class="logo-container">
+        <img src="assets/images/snapkartlogo.png" alt="">
+    </div> -->
     <div class="card-container">
         <div class="img-container">
+            <img src="assets/images/snapkartlogo.png" alt="">
             <!-- <img src="/assets/images/login-bg.jpg" alt=""> -->
             <!-- <div class="random"></div> -->
         </div>
@@ -41,7 +22,7 @@
         </div>
         <div class="btn-container">
             <p>Don't have an account?</p>
-            <button class="sign-up-btn">SIGN UP</button>
+            <button class="sign-up-btn" (click)="redirectToSignup()">SIGN UP</button>
         </div>
     </div>
 </div>

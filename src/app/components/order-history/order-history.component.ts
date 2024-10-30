@@ -1,9 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { NavbarComponent } from '../navbar/navbar.component';
+
 @Component({
   selector: 'app-order-history',
   standalone: true,
-  imports: [],
+  imports: [NavbarComponent],
   templateUrl: './order-history.component.html',
   styleUrl: './order-history.component.css'
 })

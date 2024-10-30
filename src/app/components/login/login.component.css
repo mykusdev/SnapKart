@@ -6,6 +6,15 @@
     justify-content: end;
     align-items: end;
 }
+.logo-container{
+    height: 90vh;
+    width: 600px;
+    border: 1px solid red;
+}
+.logo-container img{
+    padding: 30px;
+    width: 90%;
+}
 .card-container{
     background-color: #73ab84;
     height: 90vh;
@@ -27,9 +36,10 @@
     /* background: linear-gradient(to bottom, rgba(255, 0, 0, 0), green); */
     /* z-index: 9; */
     /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #73ab84), url("/assets/images/login-bg.jpg"); */
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #73ab84), url("/assets/images/shopping-bags.jpg");
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 70%, #73ab84), url("/assets/images/whitebag.jpg");
     background-size: cover;
-    background-position: center, center -100px;
+    /* background-position: center, center -100px; */
+    background-position: center, center;
 
 }
 /* .random{
@@ -53,8 +63,9 @@
 }
 
 .img-container img{
-    width: 100%;
-    object-fit: cover;
+    width: 20%;
+    float: right;
+    margin: 20px;
 }
 .input-container{
     width: 90%;

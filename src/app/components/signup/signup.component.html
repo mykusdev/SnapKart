@@ -1,24 +1,27 @@
-
 <div class="container">
     <div class="card-container">
         <div class="img-container">
-            <img src="/assets/images/login-bg.jpg" alt="">
+            <img src="assets/images/snapkartlogo.png" alt="">
+            <!-- <img src="/assets/images/login-bg.jpg" alt=""> -->
             <!-- <div class="random"></div> -->
         </div>
         
         <div class="LOGIN-heading">
-            <h1>Signup</h1>
+            <h1>Sign Up</h1>
         </div>
+        <div class="error-container" *ngIf="signupError!==''">{{signupError}}</div>
         <div class="input-container">
-            <input type="text" placeholder="Enter Username">
-            <input type="password" id="" placeholder="Enter Password">
+
+            <input type="text" placeholder="Enter Email" [(ngModel)]="userdata.email">
+            <input type="text" placeholder="Enter Username" [(ngModel)]="userdata.username">
+            <input type="password" id="" placeholder="Enter Password" [(ngModel)]="userdata.password">
         </div>
         <div class="btn-container">
-            <button>LOGIN</button>
+            <button (click)="onSignup()">SIGN UP</button>
         </div>
         <div class="btn-container">
-            <p>Don't have an account?</p>
-            <button class="sign-up-btn">SIGN UP</button>
+            <p>Already have an account?</p>
+            <button class="sign-up-btn" (click)="redirectToLogin()">LOGIN</button>
         </div>
     </div>
 </div>

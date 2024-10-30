@@ -1,1 +1,24 @@
-<p>navbar works!</p>
+<nav class="nav-container">
+    <div class="navdiv">
+        <div class="logo">
+            <img src="assets/images/snapkartlogo.png" alt="">
+        </div>
+        <div class="center">
+            <ul>
+                <li><a routerLink="/order-history">Order History</a></li>
+                <li><a routerLink="/dashboard">Dashboard</a></li>
+            </ul>
+        </div>
+        <div class="profile">
+            <img src="assets/images/profileicon.png" alt="" (click)="openProfile()">
+            
+        </div>
+    </div>
+    <div class="profile-list" *ngIf="profileClicked">
+        <ul class="profile-ul">
+            <li>Profile</li>
+            <li>Wishlist</li>
+            <li>Log Out</li>
+        </ul>
+    </div>
+</nav>
